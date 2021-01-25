@@ -9,13 +9,13 @@
   </head>
   <body>
     <h1>Main page</h1>
-    <form method="POST" action="form-submitted.html" name="submit">
-      <input type="text" name="description" placeholder="Description">
-      <input type="file" name="file" placeholder="File">
-      <input type="submit" value="Submit">
+    <form method="GET" action="form-submitted.html" name="submit">
+      <input type="text" id="description" placeholder="Description">
+      <input type="file" id="file" placeholder="File">
+      <input type="submit" id="submit" value="Submit">
     </form>
-    <form method="POST" action="form-logout.html" name="logout">
-      <input type="submit" value="Log out">
+    <form method="GET" action="form-logout.html" name="logout">
+      <input type="submit" id="logout" value="Log out">
     </form>
   </body>
 </html>
